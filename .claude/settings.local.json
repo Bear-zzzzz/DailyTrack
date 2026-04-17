@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(ln:*)",
+      "Bash(bash:*)",
+      "Bash(python3:*)",
+      "Bash(rsync:*)",
+      "Bash(uv venv:*)",
+      "Bash(source .venv/bin/activate)"
+    ]
+  }
+}

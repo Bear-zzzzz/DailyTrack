@@ -18,7 +18,7 @@ def think_node(state: AgentState) -> Dict[str, Any]:
     """
     思考节点：Agent 分析当前信息，决定下一步行动
     """
-    # 构建上下文
+    # 构建上下文1
     question = state["question"]
     history = "\n".join(state["thinking_history"]) if state["thinking_history"] else "无"
     observations = "\n".join(state["observations"]) if state["observations"] else "无"

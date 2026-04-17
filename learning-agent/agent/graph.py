@@ -18,7 +18,6 @@ def create_agent_graph():
 
     # ============ 创建图 ============
     graph = StateGraph(AgentState)
-
     # ============ 添加节点 ============
     graph.add_node("think", think_node)
     graph.add_node("action", action_node)

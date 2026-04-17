@@ -218,3 +218,9 @@ class LoRA(nn.Module):
 """,
     }
     return code_examples.get(concept, "没有该概念的代码示例")
+
+
+# 初始化 Embedding Manager
+from knowledge.embeddings import EmbeddingManager
+embedding_manager = EmbeddingManager()
+embedding_manager.index_documents(KNOWLEDGE_BASE)

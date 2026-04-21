@@ -7,7 +7,10 @@
       "Bash(python3:*)",
       "Bash(rsync:*)",
       "Bash(uv venv:*)",
-      "Bash(source .venv/bin/activate)"
+      "Bash(source .venv/bin/activate)",
+      "Bash(cd /Users/xiongwei8/Desktop/DailyTrack/learning-agent && python experiments/prompt_experiments.py)",
+      "Bash(learning-agent/.venv/bin/python learning-agent/experiments/prompt_experiments.py)",
+      "Bash(curl -s http://127.0.0.1:15731/v1/models -H \"Authorization: Bearer sk-synapse-proxy\" | head -20)"
     ]
   }
 }

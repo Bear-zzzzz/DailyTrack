@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>熊伟 - Agent 开发工程师简历</title>
+<style>
+  @page {
+    size: A4;
+    margin: 12mm 14mm 12mm 14mm;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-size: 10.2pt;
+    line-height: 1.4;
+  }
+  body { padding: 0; }
+  h1 {
+    font-size: 17pt;
+    margin: 0 0 2mm 0;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  h2 {
+    font-size: 11.5pt;
+    margin: 3.2mm 0 1.5mm 0;
+    border-bottom: 0.6pt solid #999;
+    padding-bottom: 0.6mm;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 11pt;
+    margin: 2mm 0 1mm 0;
+    font-weight: 600;
+  }
+  p {
+    margin: 0 0 1.2mm 0;
+  }
+  ul, ol {
+    margin: 0 0 1.4mm 0;
+    padding-left: 5mm;
+  }
+  li {
+    margin: 0.3mm 0;
+  }
+  hr {
+    border: none;
+    border-top: 0.4pt solid #ccc;
+    margin: 1.6mm 0;
+  }
+  strong { font-weight: 600; }
+  em { font-style: normal; }
+  .small-note {
+    color: #666;
+    font-size: 9pt;
+  }
+</style>
+</head>
+<body>
+<h1>熊伟</h1>
+<p><strong>Agent 开发工程师 / LLM 应用开发工程师</strong></p>
+<p>📞 18815605340 ｜ ✉️ xiongwei990815@163.com ｜ 📍 北京
+工作年限：2.5 年（2024.02 至今） ｜ 求职意向：Agent 开发工程师 / LLM 应用工程师 / AI 工程化开发工程师</p>
+<hr />
+<h2>教育背景</h2>
+<p><strong>伯明翰大学</strong> ｜ 计算机科学 · 硕士 ｜ 2022.09 - 2023.12</p>
+<p><strong>合肥工业大学</strong> ｜ 应用化学 · 本科 ｜ 2018.09 - 2022.07</p>
+<hr />
+<h2>专业技能</h2>
+<p>熟悉Agent核心运行机制：ReAct闭环、上下文窗口管理、多轮对话状态机、工具调用、Self-Correction（错误回灌+熔断保护）与Resume/Replay回退策略，以及Skill沉淀与按需激活机制，具备系统性分析、调优与决策过程解释能力
+具备主流Agent框架源码阅读与架构拆解能力,主导生产级LangChain ReAct Agent系统落地(覆盖Agent Runtime / RAG / 工具权限 / Trace / 评测);了解MCP / A2A等Agent互操作协议及其定位
+深入理解LLM Agent、Tool Use、Agent Harness Engineering;熟悉RAG架构及常见优化(Hybrid Search、Query Rewriting、Rerank、多路召回);熟悉Agent记忆系统设计:Episodic / Semantic / Procedural三分法、写入-晋升-召回管线、记忆质量评估与衰减策略;具备Agent可观测性、评估体系、安全权限控制的完整落地经验(append-only Trace + 质量Gate + 三层评测)
+端侧落地经验,熟悉AI应用系统后端开发(Python / Kotlin &amp; Java)与API接口设计(FastAPI / 飞书IM多入口),熟悉MySQL / SQLite数据库与数据建模;了解Node.js / Docker;具备量产车机部署经验
+熟悉OpenClaw架构与渠道部署,具备Agent系统从设计、开发、测试到部署交付的全链路落地能力
+良好的沟通协作能力,能推动跨团队(算法 / 产品 / 测试 / 车机)技术方案对齐与项目落地</p>
+<hr />
+<h2>工作经历与项目亮点</h2>
+<p><strong>理想汽车</strong> ｜ 软件研发工程师（Android / 环境感知方向） ｜ 北京 ｜ 2024.02 - 至今</p>
+<ul>
+<li>主导/深度参与 3 个 Agent 系统建设（车辆软件问题智能诊断 / vla指挥项目 / 任务生成 Agent 评测与调优平台）；承担车载 EID 应用 + Android 智驾交互核心开发</li>
+<li>参与交付行业首个任意园区无人化接驳 + 首个 L3 智能驾驶交互产品（vla指挥项目累计 1100w+ 服务 / 月活 90W+ / 月活渗透率 20%+）</li>
+<li>跨团队协作（算法 / 产品 / 测试 / 车机），将大模型驱动能力落地到量产车机</li>
+</ul>
+<hr />
+<p><strong>【项目一】车辆软件问题智能诊断 Agent</strong>
+<em>技术栈：Python / FastAPI / LangChain / OpenAI 兼容 LLM / SQLite / Hybrid Retrieval / YAML 配置驱动</em></p>
+<p>面向车辆软件问题排查场景，构建基于 LLM 自主规划的 ReAct Agent 系统。系统接收工单输入（VIN、故障现象、发生时间）后，自动采集车云日志、检索代码仓库、进行日志与代码关联分析，输出<strong>证据-grounded 的结构化根因报告</strong>，将传统人工排查升级为 Agent 自主规划 + 工具自动执行 + 证据自动关联 + 结论可追溯的智能诊断流程。</p>
+<ul>
+<li><strong>三层插件化 Agent 架构</strong>：设计 Domain / Skill / Command-Tool 三层插件化架构，全部通过声明式 YAML 配置描述能力边界，新增业务能力无需改动引擎核心代码，支持多领域 / 多场景 / 多租户扩展。</li>
+<li><strong>ReAct Runtime + 多层护栏 + 工具权限网关</strong>：实现完整 Reason→Act→Observe 闭环引擎；Runtime 护栏覆盖 Repetition Detection / Periodic Reflection / Turn-Budget Awareness / Self-Correction（error_code 回灌）/ 软降级；通过 planner.approve + allowed_tool_names 白名单 + 路径/biz_type 白名单 + 多级 Filter 拦截工具调用，权限拒绝结构化回灌 Agent 上下文。</li>
+<li><strong>Hybrid RAG + 经验记忆 + Trace / Resume</strong>：BM25 + 向量混合检索 + Query Rewriting + Metadata Filtering + Top-K Rerank，历史结论沉淀为可复用经验，新工单自动召回；append-only investigation_events 真相源 + TraceRecorder 关键事件 + call_id/reply_to 关联 + Checkpoint 快照 + Resume / Replay / failed_replay / initial_state 注入。</li>
+</ul>
+<p><strong>量化成果（占位）</strong>：平均排查耗时 [<strong><em>_] h ｜ 人工筛查时间下降 [</em></strong><em>]% ｜ 召回命中率 [<strong><em>_]% ｜ 结论采纳率 [</em></strong></em>]% ｜ Token 消耗下降 [<strong><em>_]% ｜ Resume 成功率 [</em></strong><em>]% ｜ Domain·Skill·Tool [<strong><em>_] 个 ｜ 累计工单 [</em></strong></em>] 单</p>
+<hr />
+<p><strong>【项目二】任务生成 Agent 评测与调优平台</strong>
+<em>技术栈：Python / FastAPI / LLM-as-a-Judge / MySQL / 异步评测调度 / 自动化回归流水线</em></p>
+<p>围绕自研"任务生成 Agent 服务"搭建评测与调优平台。服务负责将用户自然语言 query 解析为可执行任务，平台通过评测数据驱动 Prompt 迭代与生成流程调优，构建 <strong>"评测 → 问题定位 → Prompt / 流程调优 → 回归验证"</strong> 的迭代闭环。</p>
+<ul>
+<li><strong>多维度评测体系 + 三层评测链路</strong>：覆盖任务生成正确性 / 白黑名单合规性 / 多轮上下文一致性 / 拒绝生成合理性 / 误触发控制 / 输出结构稳定性 6 个维度；规则校验（字段完整性 / 枚举值 / 路径合法性）+ LLM-as-a-Judge（语义 / 意图 / 连贯性）+ 人工复核（边界 / 高风险 / 模型不确定 case）三层机制。</li>
+<li><strong>问题归因 + 回归基线 + 质量 Gate</strong>：评测失败 case 结构化归因到 Prompt 召回 / Prompt 约束 / Agent 流程 / 上下文管理 / 数据 5 类来源，避免盲目调 Prompt；沉淀标准评测用例集作为回归基线；安全 / 拒绝 / 误触发类关键 case 设置强校验，未通过版本不允许上线。</li>
+<li><strong>评测自动化流水线 + 数据闭环</strong>：定时 / 触发式自动收集输入 / 输出 / 上下文 / 耗时 / 异常并执行规则校验与 LLM 判分，结果落库形成版本级 / 场景级 / 问题类型级数据；与质量看板联动展示达标率 / 失败分布 / 延迟趋势 / 版本对比。</li>
+</ul>
+<p><strong>量化成果（占位）</strong>：评测集 [<strong><em>_] 条 ｜ 业务场景 [</em></strong><em>] 个 ｜ 迭代轮次 [<strong><em>_] 轮 ｜ 达标率 [</em></strong></em>]% → [<strong><em>_]% ｜ 误触发率下降 [</em></strong><em>]% ｜ 上下文断裂率下降 [<strong><em>_]% ｜ 回归耗时 [</em></strong></em>] → [<strong><em>_] min ｜ Gate 拦截问题 [</em></strong>_] 个</p>
+<hr />
+<p><strong>【项目三】vla指挥项目（语音控车 + 出行规划）</strong>
+<em>技术栈：Android / Kotlin &amp; Java / Voice SDK（ASR / TTS）/ DDS 通信 / FSD 协议</em></p>
+<p>面向智能驾驶场景的语音控车链路。本人承担<strong>语音模块 ↔ FSD 之间的中间承接层</strong>：承接上游语音模块的意图指令，实现信息透传 → 行为决策 → 指令下发到 FSD，打通"语音 → 自动驾驶"链路，使用户通过自然语言指令即可触发出行规划与车辆控制，覆盖行车与泊车两大场景。</p>
+<ul>
+<li><strong>语音 ↔ FSD 中间承接层 + 多级 Filter 安全门控</strong>：构建 <code>VoiceCopilotRepo</code> / <code>VoiceStore</code> / <code>VoiceReplyBehavior</code> / <code>DDSRepo</code> 模块，承接上游意图 → 信息透传 → 行为决策 → 指令下发给 FSD；<code>VoiceReplyBehavior</code> 内实现多级 Filter（安全 / 冲突 / 无效），行驶中自动禁用高风险功能。</li>
+<li><strong>二次确认 + 完整行为可解释链路</strong>：高权限指令（漫游 / AVP）实现语音二次确认；所有指令出口（TTS / FSD）由 <code>VoiceReplyBehavior</code> 统一决策便于审计与拦截，类比 Agent 的 Trace 行为审计</li>
+</ul>
+<p><strong>量化成果</strong>：累计服务 <strong>1100w+</strong> 次 ｜ 月活跃用户 <strong>90W+</strong> ｜ 月活渗透率 <strong>20%+</strong></p>
+<hr />
+<h2>投递策略</h2>
+<ul>
+<li>投递 <strong>Agent 工程师</strong> 岗位：优先呈现项目一；强调 Domain/Skill/Tool 插件化 + Runtime 护栏 + Hybrid RAG + Trace</li>
+<li>投递 <strong>AI 平台 / 评测</strong> 岗位：优先呈现项目二；强调 6 维度评测 + 质量 Gate + 调优闭环</li>
+<li>投递 <strong>智能驾驶 / 车机 Agent 应用</strong> 岗位：优先呈现项目三；强调语音 ↔ FSD 链路承接 + Android 端实现 + 1100w+ 累计服务</li>
+</ul>
+</body>
+</html>

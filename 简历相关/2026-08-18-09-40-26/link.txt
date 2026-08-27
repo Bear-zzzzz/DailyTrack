@@ -1,9 +1,0 @@
-:29:44  INFO  agent.feishu_ws  飞书长连接客户端启动（app_id=cli_a9f3144e…）
-[Lark] [2026-08-18 19:29:44,452] [INFO] connected to wss://msg-frontier.feishu.cn/ws/v2?fpid=493&aid=552564&device_id=7675332364893998025&access_key=aa792ffdac8491ca5b851c895ca10b6a&service_id=33554678&ticket=1ba8edce-0a19-47f6-8fb4-b1455b8a5143 [conn_id=7675332364893998025]
-19:29:44  INFO  Lark  connected to wss://msg-frontier.feishu.cn/ws/v2?fpid=493&aid=552564&device_id=7675332364893998025&access_key=aa792ffdac8491ca5b851c895ca10b6a&service_id=33554678&ticket=1ba8edce-0a19-47f6-8fb4-b1455b8a5143 [conn_id=7675332364893998025]
-19:29:49  WARNING  agent.channels.base  send_message 失败: ConversationService.send_message() got an unexpected keyword argument 'actor'
-
-
-
-【WorkBuddy AI】查看 WorkBuddy 分享任务链接
-https://workbuddy.cc/agents/tasks/share/5xCu9FrB3i?platform=workbuddy-ai&ext2=copy_link

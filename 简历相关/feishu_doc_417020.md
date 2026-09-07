@@ -6,64 +6,59 @@ Task（目标）：把整个排查流程交给 LLM Agent 自动完成——用�
 
 Action（架构）：请求进队列后，Worker 拉起 LangGraph 引擎，按 session（thread_id）隔离状态。首次调查创建空白 state；续调则由框架从原生 checkpoint 自动恢复 state，从上次断点继续。在 Plan→Act→Observe 循环中迭代调查，直到出结论。每个节点执行后 checkpoint 自动增量持久化。
 
-Result（成果）：诊断耗时从数小时降到 15 分钟，自动化排查率 75%，人工采纳率 80%+，累计处理 200+ 工单
+Result（成果）：诊断耗时从数小时降到 15 分钟，自动化排查率 75%，人工采纳率 80%+，累计处理 200+ 工单_
 
-_详情：_
+
+agent流程本身是模型调用 - 工具调用，整个流程挂上了钩子系统。
+
+
+循环每轮先过 before_model 链——预算计数、死循环检测、上下文蒸馏都在 LLM 调用之前完成，ContextBuilder来组装上下文。
+
+模型调用外层套着wrap_model_call，这里进行对模型输出进行校验，处理模型故障 ，token消耗，耗时，finish reason信息，如果是length，那就进行续写
+
+after model：更新state history字段
+
+如果有tools call环节，
+
+有tool calls：
 
 ```
-flowchart TB
-      classDef react fill:#e1d5e7,stroke:#9673a6,stroke-width:3px
-      classDef state fill:#e8f4f8,stroke:#4a90d9,stroke-width:2px
-      classDef capability fill:#d5e8d4,stroke:#82b366,stroke-width:2px
-      subgraph Loop["ReAct 推理循环"]
-          direction TB
-          Plan["Plan 节点\nLLM 决策: 选工具 or 回复"]
-          Act["Act 节点\n权限校验 → 工具执行 → 收集证据"]
-          Observe["Observe 节点\n轮次计数 + 护栏检查 + 防循环"]
-          Plan -->|"tool_calls"| Act
-          Act --> Observe
-          Observe -->|"继续调查"| Plan
-          Plan -->|"reply"| End["输出结论"]
-          Observe -->|"max_turns/熔断"| End
-      end
-      State["State 会话数据\nevidence / history\ntool_results / turn_count"]
-      subgraph Cap["Tool & Skill 能力层"]
-          Tools["通用工具: exec / grep_log / read_file\nRAG 工具: search_experience / search_code"]
-          Skills["Skill: log / taskmaster / code\nSKILL.md 指令手册，LLM 按需 read_skill"]
-      end
-      Plan -. "调用" .-> Tools
-      Plan -. "加载指令" .-> Skills
-      Act -. "执行" .-> Tools
-      Act -. "读指令" .-> Skills
-      Loop -. "读写 state" .-> State
-      class Plan,Act,Observe,End react
-      class State state
-      class Tools,Skills,Cap capability
+走tools 节点：第一层 toolNode：遍历tool calls，根据name找 tool
+             第二层 pathGuard：读白名单，写白名单；exec白名单 
+             第三层 Cache：相同参数调用工具多次，拒绝并回灌（结果如下，请换思路）
+             第四层 RuntimeCatalog执行层，：工具白名单 - 参数校验 - handler执行（超时/超长截断/记录留痕）
 ```
 
-Plan 节点调 LLM 决策下一步——选工具执行还是直接回复。
+无tool calls：
 
-选了工具就进 Act 节点，做权限校验、调工具（exec/grep_log/search_experience 等）、收集证据，结果写入 state。
-
-然后 Observe 节点做轮次计数和护栏检查——检测重复调用、预算倒计时、熔断——没问题就回 Plan继续下一轮。证据充分或达到上限就输出结论。
-
-Skill 是 Plan 节点按需通过 read_skill 加载的指令手册，教 LLM 怎么用工具；
-
-Tool 是 Act 节点真正执行的能力。
-
-State 是整个循环的数据总线，每轮 Plan→Act→Observe 都读写它。
+after agent：goal评估，无结论继续跑（<=3次）
 
 
 
-**四层护栏：**
+行为层：防模型失控，比如陷入死循环，假装完成任务。
 
-权限护栏：工具白名单，shell 脚本参数校验，越权后直接拒绝并注入提示
+```
+1.防死循环：2次同工具同参数，拒绝执行并回灌
+3.模型输出结果后，flash模型校验结果是否完成，未完成重跑<3次
+```
 
-防死循环/资源护栏：最大步数限制，防死循环检测，超时机制。
 
-工具调用护栏：调用前 schema校验，调用中超时，调用后超长内容按 2000 字符截断标记
 
-上下文护栏：每 5 轮 LLM 提炼关键信息关键信息，保留最近 5 轮完整 tool\_result，旧结果保留摘要，防止上下文膨胀
+边界层：防止越权
+
+```
+1.路径读写白名单:PathGuard，wraptoolcall，读写路径白名单，exec 脚本路径白名单
+2.工具调用白名单
+```
+
+资源层：
+
+1.工具调用超时 or 工具调用失败，注入提示。超过3次自动熔断，停止当前宫欧，用其他工具替代
+
+2.工具调用输出截断；llm输出finish_reason=length截断，自动续写
+
+3.上下文蒸馏：history>20k token时，保留最近3条完整tool result，触发flash模型压缩上下文，输出结构化摘要（已确认事实/已读资源/失败记录/关键推理/关键事实）
+
 
 
 

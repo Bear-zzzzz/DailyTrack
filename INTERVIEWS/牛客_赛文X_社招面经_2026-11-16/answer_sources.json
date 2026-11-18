@@ -1,0 +1,1193 @@
+{
+  "checkedDate": "2026-11-16",
+  "sources": [
+    {
+      "id": "S01",
+      "name": "OpenAI — Evaluation best practices",
+      "urls": [
+        "https://developers.openai.com/api/docs/guides/evaluation-best-practices"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Evaluation best practices | OpenAI API",
+          "fetchedUrl": "https://developers.openai.com/api/docs/guides/evaluation-best-practices",
+          "contentCharacters": 82803,
+          "sha256": "57f4fab8e134628e7e988997c48c057b2b1e5e025822eea50dfe480b1e452e27",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "NIST — SP 800-218 SSDF",
+      "urls": [
+        "https://csrc.nist.gov/pubs/sp/800/218/final"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "SP 800-218, Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities | CSRC",
+          "fetchedUrl": "https://csrc.nist.gov/pubs/sp/800/218/final",
+          "contentCharacters": 12372,
+          "sha256": "f3b76cebbf42034b5598a6dc03d59dbc8c1c810360764e7473ab6cb7dad9b1ea",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "MCP — Architecture",
+      "urls": [
+        "https://modelcontextprotocol.io/docs/learn/architecture"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Architecture overview - Model Context Protocol",
+          "fetchedUrl": "https://modelcontextprotocol.io/docs/learn/architecture",
+          "contentCharacters": 190353,
+          "sha256": "eb59c33bfa7da89d9d47489aa3bd4486bcb7349f249cce46f1af873915cd8300",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "name": "MCP — Tools（2025-11-25）",
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2025-11-25/server/tools"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Tools - Model Context Protocol",
+          "fetchedUrl": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+          "contentCharacters": 146711,
+          "sha256": "bc218897e2a4f96e1604bbbb090525809dcda7867092c571b8804969633e028a",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "name": "MCP — Security best practices（2025-11-25）",
+      "urls": [
+        "https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Security Best Practices - Model Context Protocol",
+          "fetchedUrl": "https://modelcontextprotocol.io/specification/2025-11-25/basic/security_best_practices",
+          "contentCharacters": 143197,
+          "sha256": "4e9a9665fe6fc6803c23fda1983f3a6cef493a7522d5c3ff3810867af6a3bcfd",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "name": "OpenSpec — 官方仓库",
+      "urls": [
+        "https://github.com/Fission-AI/OpenSpec"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "OpenSpec — 官方仓库",
+          "fetchedUrl": "https://raw.githubusercontent.com/Fission-AI/OpenSpec/main/README.md",
+          "contentCharacters": 10948,
+          "sha256": "e5e4b4a20463a7372930fdea499913f15fb655698bfeb570e5210fb55fa22fd7",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "name": "OpenCode — 当前 API 文档",
+      "urls": [
+        "https://opencode.ai/docs/api/"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "API | OpenCode",
+          "fetchedUrl": "https://opencode.ai/docs/api/",
+          "contentCharacters": 360758,
+          "sha256": "35a372a74882619bad91a84ca81211e0df880180450159878531257bc22d9f4f",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "name": "Pi coding agent — 官方 README",
+      "urls": [
+        "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/README.md"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Pi coding agent — 官方 README",
+          "fetchedUrl": "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/README.md",
+          "contentCharacters": 4079,
+          "sha256": "05fbf2b3c4dc6178be917f7962a81501aeef0cdac361814ecb31bac4cbd77c9a",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "name": "Superpowers — 官方仓库",
+      "urls": [
+        "https://github.com/obra/superpowers"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Superpowers — 官方仓库",
+          "fetchedUrl": "https://raw.githubusercontent.com/obra/superpowers/main/README.md",
+          "contentCharacters": 14834,
+          "sha256": "fd9cb25a7d226828f206ca100b3b37135e2babff5a587a613abe17e51ac8c064",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "name": "LangGraph — Durable execution",
+      "urls": [
+        "https://docs.langchain.com/oss/python/langgraph/durable-execution"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Persistence - Docs by LangChain",
+          "fetchedUrl": "https://docs.langchain.com/oss/python/langgraph/durable-execution",
+          "contentCharacters": 304793,
+          "sha256": "e740fe3b7d5baf3434674a14b9656d0edacbffe18c6e8e29e3992f01e1c36d4c",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "name": "Anthropic — Building effective agents",
+      "urls": [
+        "https://www.anthropic.com/engineering/building-effective-agents"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Building effective agents",
+          "fetchedUrl": "https://www.anthropic.com/engineering/building-effective-agents",
+          "contentCharacters": 23107,
+          "sha256": "7fe2912bfa8c8dc1950ad93eaf58601aeeae6655efea68992e37e6926d7bcf69",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "name": "Azure AI Search — Hybrid search overview",
+      "urls": [
+        "https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Hybrid Search Overview - Azure AI Search",
+          "fetchedUrl": "https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview",
+          "contentCharacters": 29728,
+          "sha256": "415826aafdcc080582103996915a76e61d43f360dda72fcdd8c0acf037a5efe0",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "name": "OWASP — SSRF Prevention Cheat Sheet",
+      "urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Server Side Request Forgery Prevention - OWASP Cheat Sheet Series",
+          "fetchedUrl": "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html",
+          "contentCharacters": 61027,
+          "sha256": "9e61851379f2906fc2734332cfe9f4e13bd3a4615f031a081720ec28a343d8c5",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "name": "Kubernetes — Deployments",
+      "urls": [
+        "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Deployments",
+          "fetchedUrl": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+          "contentCharacters": 184986,
+          "sha256": "d52f518e8f1e9fdc0f61488232cff2024f7c469e1aff27de37b59f90755b4977",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "name": "Kubernetes — Persistent Volumes",
+      "urls": [
+        "https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Persistent Volumes | Kubernetes",
+          "fetchedUrl": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/",
+          "contentCharacters": 179024,
+          "sha256": "7f07b1ea10421fc21fae7b0af50ab9fd248922cc94c38a3d1c0566f380edddc5",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S16",
+      "name": "Kubernetes — StatefulSets",
+      "urls": [
+        "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "StatefulSets",
+          "fetchedUrl": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/",
+          "contentCharacters": 156586,
+          "sha256": "362dd6349b021df10b4efbf4c0d4d7b24749ad93f6343030c11519b8c732523f",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S17",
+      "name": "Google SRE — Handling Overload",
+      "urls": [
+        "https://sre.google/sre-book/handling-overload/"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Google SRE: Load Balancing with Client Side Throttling",
+          "fetchedUrl": "https://sre.google/sre-book/handling-overload/",
+          "contentCharacters": 35181,
+          "sha256": "e8ddfebd1e2a7c32a0824536ea5e68f0d63148f565c15118bfaefcd54d0f77af",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S18",
+      "name": "OpenTelemetry — Signals",
+      "urls": [
+        "https://opentelemetry.io/docs/concepts/signals/"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Signals | OpenTelemetry",
+          "fetchedUrl": "https://opentelemetry.io/docs/concepts/signals/",
+          "contentCharacters": 107225,
+          "sha256": "8ea8bd1385441e882ce09b1c0ed3a4cbe25abad590a4c842556635c49af813da",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "name": "IETF — RFC 9110 HTTP Semantics",
+      "urls": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "RFC 9110: HTTP Semantics",
+          "fetchedUrl": "https://www.rfc-editor.org/rfc/rfc9110.html",
+          "contentCharacters": 804083,
+          "sha256": "01046f25d9dabf39d8fa0408f607dcfb97e59860c7d63666c6a2cd48cd41cd55",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S20",
+      "name": "gRPC — Core concepts",
+      "urls": [
+        "https://grpc.io/docs/what-is-grpc/core-concepts/"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Core concepts, architecture and lifecycle | gRPC",
+          "fetchedUrl": "https://grpc.io/docs/what-is-grpc/core-concepts/",
+          "contentCharacters": 24827,
+          "sha256": "b1b2016fa439c158617b00a873fad3efaf2c899333b5fc59db89b109c4bbba37",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S21",
+      "name": "MDN — Using server-sent events",
+      "urls": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Using server-sent events - Web APIs | MDN",
+          "fetchedUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
+          "contentCharacters": 23505,
+          "sha256": "b040d25db1fb1c72b799c0cef538f1d90dad1ddb1232cc6bceab90c7d2052bd0",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S22",
+      "name": "React — Thinking in React",
+      "urls": [
+        "https://react.dev/learn/thinking-in-react"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Thinking in React – React",
+          "fetchedUrl": "https://react.dev/learn/thinking-in-react",
+          "contentCharacters": 32120,
+          "sha256": "c39365a8b11efc9af935170a7b2664eda1abcfb696a75da22e8d9513166717f0",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S23",
+      "name": "Vue — Reactivity in depth",
+      "urls": [
+        "https://vuejs.org/guide/extras/reactivity-in-depth.html"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Vue.js",
+          "fetchedUrl": "https://vuejs.org/guide/extras/reactivity-in-depth.html",
+          "contentCharacters": 36638,
+          "sha256": "71aa9fb74f10a2216f3b5854579d821a24041c4330a8db668f6e6be80d87c607",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "S24",
+      "name": "OpenCode — V1 Server 文档",
+      "urls": [
+        "https://opencode.ai/v1/docs/server/"
+      ],
+      "evidence": "主代理读取官方正文并核对关键段落",
+      "snapshots": [
+        {
+          "pageTitle": "Server | OpenCode V1",
+          "fetchedUrl": "https://opencode.ai/docs/server/",
+          "contentCharacters": 20811,
+          "sha256": "7c5ba703fe7e5722ba52f9b8636e176cf35e2a71a3d0db8ab43c6ed0535f528f",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B01",
+      "name": "Go runtime：调度器源码",
+      "urls": [
+        "https://go.dev/src/runtime/proc.go"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "- The Go Programming Language",
+          "fetchedUrl": "https://go.dev/src/runtime/proc.go",
+          "contentCharacters": 289720,
+          "sha256": "97e8149d1b4d096895589f5b8c1d5d2946af0462592562579edd7ac9601f73f7",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "name": "Go 1.14 Release Notes：异步抢占",
+      "urls": [
+        "https://go.dev/doc/go1.14"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Go 1.14 Release Notes - The Go Programming Language",
+          "fetchedUrl": "https://go.dev/doc/go1.14",
+          "contentCharacters": 35934,
+          "sha256": "88578ea272507f5eb591300f9ce03a990d7acf9fe30ef7a7289f1321f89b453f",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "name": "Go 1.25 Release Notes：容器感知 GOMAXPROCS、实验性 Green Tea",
+      "urls": [
+        "https://go.dev/doc/go1.25"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Go 1.25 Release Notes - The Go Programming Language",
+          "fetchedUrl": "https://go.dev/doc/go1.25",
+          "contentCharacters": 45174,
+          "sha256": "67b38bbbc1a18ca08491aabe4d000e625fe40f21ecca4f8424af35a30371ef57",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "name": "Go context：实现与取消传播",
+      "urls": [
+        "https://go.dev/src/context/context.go"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "- The Go Programming Language",
+          "fetchedUrl": "https://go.dev/src/context/context.go",
+          "contentCharacters": 35024,
+          "sha256": "2c36da3e1439394288c6d187f44ba20ef6f6c951b7faaefd1dfc116112b7b4e2",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "name": "The Go Memory Model",
+      "urls": [
+        "https://go.dev/ref/mem"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "The Go Memory Model - The Go Programming Language",
+          "fetchedUrl": "https://go.dev/ref/mem",
+          "contentCharacters": 31705,
+          "sha256": "75d57d9ec305974eac814d7802cea559e552c32109749c784c9160c5aa851de1",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "name": "Go Slices: usage and internals",
+      "urls": [
+        "https://go.dev/blog/slices-intro"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Go Slices: usage and internals - The Go Programming Language",
+          "fetchedUrl": "https://go.dev/blog/slices-intro",
+          "contentCharacters": 18451,
+          "sha256": "30d64ff751c32f36252cbd364fe4671efa4b678cfbded38834661697b69f5c57",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "name": "Python copy：浅拷贝与深拷贝",
+      "urls": [
+        "https://docs.python.org/3.14/library/copy.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "copy — Shallow and deep copy operations",
+          "fetchedUrl": "https://docs.python.org/3.14/library/copy.html",
+          "contentCharacters": 10177,
+          "sha256": "ef226357534e174aa96c1d4204150ad4c514987a75852f362335a5f7b50a77f8",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "name": "A Guide to the Go Garbage Collector",
+      "urls": [
+        "https://go.dev/doc/gc-guide"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "A Guide to the Go Garbage Collector - The Go Programming Language",
+          "fetchedUrl": "https://go.dev/doc/gc-guide",
+          "contentCharacters": 74148,
+          "sha256": "ac9cee4f625f4a8d8e9b64c92bd9f724edf790174904327adefb0720d4c1f853",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "name": "MySQL 8.4：The Slow Query Log",
+      "urls": [
+        "https://dev.mysql.com/doc/refman/8.4/en/slow-query-log.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "7.4.5 The Slow Query Log",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/slow-query-log.html",
+          "contentCharacters": 45801,
+          "sha256": "562b1333e50dd0ffa0a38608f770deec4d97b0050dbf45e90a08f3da38377d83",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "name": "MySQL 8.4：EXPLAIN Output Format / EXPLAIN Statement",
+      "urls": [
+        "https://dev.mysql.com/doc/refman/8.4/en/explain-output.html",
+        "https://dev.mysql.com/doc/refman/8.4/en/explain.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 10.8.2 EXPLAIN Output Format",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/explain-output.html",
+          "contentCharacters": 91398,
+          "sha256": "39c1072a6b170a80e3cf517b2a989d8a18c7e1909470af33dab26ae6de5269d2",
+          "retrieved": true
+        },
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 15.8.2 EXPLAIN Statement",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/explain.html",
+          "contentCharacters": 74468,
+          "sha256": "ea87dfc8b812ca8fa2787163517aa047e737a654a289d554d4c7c18bfd9825f8",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B11",
+      "name": "MySQL 8.4：Multiple-Column Indexes",
+      "urls": [
+        "https://dev.mysql.com/doc/refman/8.4/en/multiple-column-indexes.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 10.3.6 Multiple-Column Indexes",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/multiple-column-indexes.html",
+          "contentCharacters": 38254,
+          "sha256": "6ea20e1986b0a3ebb226f87fb384907e4588d37d0a4b9545e4395fd08648bdbe",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B12",
+      "name": "MySQL 8.4：Range Optimization / Index Condition Pushdown",
+      "urls": [
+        "https://dev.mysql.com/doc/refman/8.4/en/range-optimization.html",
+        "https://dev.mysql.com/doc/refman/8.4/en/index-condition-pushdown-optimization.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 10.2.1.2 Range Optimization",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/range-optimization.html",
+          "contentCharacters": 64454,
+          "sha256": "f01492e4a8a734358b40175498659b8ff25e00ed2ded9a943e915fa4e8171777",
+          "retrieved": true
+        },
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 10.2.1.6 Index Condition Pushdown Optimization",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/index-condition-pushdown-optimization.html",
+          "contentCharacters": 40207,
+          "sha256": "0bfdb0391e76e89b4604f12818ea4ad5353d909499f7a854c0e7282b8abc8034",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B13",
+      "name": "MySQL 8.4：InnoDB Transaction Isolation Levels",
+      "urls": [
+        "https://dev.mysql.com/doc/refman/8.4/en/innodb-transaction-isolation-levels.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 17.7.2.1 Transaction Isolation Levels",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/innodb-transaction-isolation-levels.html",
+          "contentCharacters": 51577,
+          "sha256": "f59fad6ff144949ccfabb12986af50f785e4dc4c9350e5e98c68a58b8c3ed6d7",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B14",
+      "name": "MySQL 8.4：Consistent Nonlocking Reads",
+      "urls": [
+        "https://dev.mysql.com/doc/refman/8.4/en/innodb-consistent-read.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 17.7.2.3 Consistent Nonlocking Reads",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/innodb-consistent-read.html",
+          "contentCharacters": 41651,
+          "sha256": "62f3604634bc065b774e43103267e29dadd6a1a35bd1f8ac06c7439365e42dd8",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B15",
+      "name": "Apache Hive：LanguageManual Explain",
+      "urls": [
+        "https://hive.apache.org/docs/latest/language/languagemanual-explain/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Apache Hive : LanguageManual Explain",
+          "fetchedUrl": "https://hive.apache.org/docs/latest/language/languagemanual-explain/",
+          "contentCharacters": 33701,
+          "sha256": "849ba01b433bb3cce9b3163c68fd3b5786fff012319fff46b39e81867191ad26",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B16",
+      "name": "Redis：Distributed Locks（含 fencing 建议及安全释放）",
+      "urls": [
+        "https://redis.io/docs/latest/develop/clients/patterns/distributed-locks/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Distributed Locks with Redis",
+          "fetchedUrl": "https://redis.io/docs/latest/develop/clients/patterns/distributed-locks/",
+          "contentCharacters": 33860,
+          "sha256": "afedd10220b63f6de231f9effed9baa35f8f67a793bfb37277800b6d33b0a2f2",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B17",
+      "name": "Kubernetes：Persistent Volumes / Access Modes",
+      "urls": [
+        "https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Persistent Volumes | Kubernetes",
+          "fetchedUrl": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/",
+          "contentCharacters": 179024,
+          "sha256": "7f07b1ea10421fc21fae7b0af50ab9fd248922cc94c38a3d1c0566f380edddc5",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B18",
+      "name": "Redis persistence",
+      "urls": [
+        "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Redis persistence",
+          "fetchedUrl": "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/",
+          "contentCharacters": 41370,
+          "sha256": "f30505a4feb770ac6a468a45d4fc8c00629e79f62ce960c5138b00f30c73a491",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B19",
+      "name": "Redis 官方：Redis 8.0-M03 的 I/O threading 改进",
+      "urls": [
+        "https://redis.io/blog/redis-8-0-m03-is-out-even-more-performance-new-features/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Redis 8.0-M03 is out. Even more performance & new features. | Redis",
+          "fetchedUrl": "https://redis.io/blog/redis-8-0-m03-is-out-even-more-performance-new-features/",
+          "contentCharacters": 31810,
+          "sha256": "70b48a3925fee5eea652069d10254ef9b8a45afff03c0af26ac9d3d51b84e1f7",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B20",
+      "name": "Redis sorted sets",
+      "urls": [
+        "https://redis.io/docs/latest/develop/data-types/sorted-sets/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Redis sorted sets",
+          "fetchedUrl": "https://redis.io/docs/latest/develop/data-types/sorted-sets/",
+          "contentCharacters": 313389,
+          "sha256": "128b9393c650298e2aff1d552df641e551b0ce58f672008930d667f0a271e929",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B21",
+      "name": "Microsoft：Implement the Transactional Outbox pattern by using Azure Cosmos DB",
+      "urls": [
+        "https://learn.microsoft.com/en-us/azure/architecture/databases/guide/transactional-out-box-cosmos"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Implement the Transactional Outbox Pattern by Using Azure Cosmos DB - Azure Architecture Center",
+          "fetchedUrl": "https://learn.microsoft.com/en-us/azure/architecture/databases/guide/transactional-out-box-cosmos",
+          "contentCharacters": 58241,
+          "sha256": "8b49d1f9ed06d9bc40b97c64af929a2b0328b0f265115fdec1caf10e4578844c",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B22",
+      "name": "Microsoft：Design a microservice domain model",
+      "urls": [
+        "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-domain-model"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Designing a microservice domain model - .NET",
+          "fetchedUrl": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-domain-model",
+          "contentCharacters": 40178,
+          "sha256": "6d9a45cd1a263731083de5eb785557809b9949e1b5ca0831202b62b1db4aff06",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B23",
+      "name": "Microsoft：Designing a DDD-oriented microservice",
+      "urls": [
+        "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Designing a DDD-oriented microservice - .NET",
+          "fetchedUrl": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice",
+          "contentCharacters": 39051,
+          "sha256": "a9b92028b747c3a7b421ba6df50cbed79d395d8588ededefa128a089cb17aa4b",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B24",
+      "name": "Microsoft：Domain events: design and implementation",
+      "urls": [
+        "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Domain events: Design and implementation - .NET",
+          "fetchedUrl": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation",
+          "contentCharacters": 60151,
+          "sha256": "2a3094424dc22f333105fd78acbc136ab5a4de6e3de9a000d65c2093be4d1ad0",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B25",
+      "name": "Python 3.14：threading / GIL and performance considerations",
+      "urls": [
+        "https://docs.python.org/3.14/library/threading.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "threading — Thread-based parallelism — Python 3.14.10 documentation",
+          "fetchedUrl": "https://docs.python.org/3.14/library/threading.html",
+          "contentCharacters": 79214,
+          "sha256": "0ac2b88454be583b986561d23c5b228463b6c4ac3b268815f745838ea01cd390",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B26",
+      "name": "Python 3.14 C API：Thread states and the global interpreter lock",
+      "urls": [
+        "https://docs.python.org/3.14/c-api/threads.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Thread states and the global interpreter lock",
+          "fetchedUrl": "https://docs.python.org/3.14/c-api/threads.html",
+          "contentCharacters": 58161,
+          "sha256": "ad0e8b00e16409fbf7e1ffb806678b0a9271cf931ede2d5e5a8580c028db9a42",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B27",
+      "name": "Python 3.14：Python support for free threading",
+      "urls": [
+        "https://docs.python.org/3.14/howto/free-threading-python.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Python support for free threading",
+          "fetchedUrl": "https://docs.python.org/3.14/howto/free-threading-python.html",
+          "contentCharacters": 25960,
+          "sha256": "b80b3e835319dbce9a457ad5cf624561c5c84551b31c897c43fe9202445ced36",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B28",
+      "name": "Python 3.14：concurrent.futures",
+      "urls": [
+        "https://docs.python.org/3.14/library/concurrent.futures.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "concurrent.futures — Launching parallel tasks",
+          "fetchedUrl": "https://docs.python.org/3.14/library/concurrent.futures.html",
+          "contentCharacters": 52346,
+          "sha256": "5e2c6e3ffc983ed63c18b1d52997836769bdc992aea4bb1288f229106521fa25",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B29",
+      "name": "Python Language Reference：The with statement",
+      "urls": [
+        "https://docs.python.org/3.14/reference/compound_stmts.html#the-with-statement"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "8. Compound statements",
+          "fetchedUrl": "https://docs.python.org/3.14/reference/compound_stmts.html#the-with-statement",
+          "contentCharacters": 113095,
+          "sha256": "4d67fe5d2c4e1c0b3562e6839aa407a1ea4c4617d4533f3c6665e4881cd9184b",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B30",
+      "name": "MySQL 8.4：XA Transactions",
+      "urls": [
+        "https://dev.mysql.com/doc/refman/8.4/en/xa.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 15.3.8 XA Transactions",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/xa.html",
+          "contentCharacters": 47038,
+          "sha256": "b589b91b5474432905a4df4939e9475963952d3491a4b4f881253d6fcdd0a7d5",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B31",
+      "name": "Microsoft：Saga distributed transactions pattern",
+      "urls": [
+        "https://learn.microsoft.com/en-us/azure/architecture/patterns/saga"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Saga Design Pattern - Azure Architecture Center",
+          "fetchedUrl": "https://learn.microsoft.com/en-us/azure/architecture/patterns/saga",
+          "contentCharacters": 37882,
+          "sha256": "bd1a3bc71fa566bc202e1c44d86b79334fbff08b5192b4f7ca3163caeb3d5cb4",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B32",
+      "name": "MySQL 8.4：CREATE INDEX / UNIQUE constraints",
+      "urls": [
+        "https://dev.mysql.com/doc/refman/8.4/en/create-index.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "MySQL :: MySQL 8.4 Reference Manual :: 15.1.15 CREATE INDEX Statement",
+          "fetchedUrl": "https://dev.mysql.com/doc/refman/8.4/en/create-index.html",
+          "contentCharacters": 101191,
+          "sha256": "12dc9313f570a5e06c83e67119c6beae164d9fd873344d8e0689d4ac123f5f35",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B33",
+      "name": "C++ 公开标准草案：vector modifiers",
+      "urls": [
+        "https://eel.is/c++draft/vector.modifiers"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "[vector.modifiers]",
+          "fetchedUrl": "https://eel.is/c++draft/vector.modifiers",
+          "contentCharacters": 5837,
+          "sha256": "3c0585a27aced154e52e0aa0e294f5e37ebe4e086b031c8c608de9a88aaf0ab0",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B34",
+      "name": "C++ 公开标准草案：deque modifiers",
+      "urls": [
+        "https://eel.is/c++draft/deque.modifiers"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "[deque.modifiers]",
+          "fetchedUrl": "https://eel.is/c++draft/deque.modifiers",
+          "contentCharacters": 5576,
+          "sha256": "06b8fccaba5559a4cd2b1246b75ead7dc7ce724e0938408a8c0d31779d091b6b",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B35",
+      "name": "C++ 公开标准草案：smart pointers",
+      "urls": [
+        "https://eel.is/c++draft/smartptr"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "20 Memory management library [mem]",
+          "fetchedUrl": "https://eel.is/c++draft/smartptr",
+          "contentCharacters": 203523,
+          "sha256": "f17aeaca7be74cfa0998d7e74b659a5350e2599046b481e0ebc3b4081ccf7f5a",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B36",
+      "name": "C++ 公开标准草案：shared_ptr / atomic shared_ptr",
+      "urls": [
+        "https://eel.is/c++draft/util.smartptr.shared",
+        "https://eel.is/c++draft/util.smartptr.atomic.shared"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "[util.smartptr.shared]",
+          "fetchedUrl": "https://eel.is/c++draft/util.smartptr.shared",
+          "contentCharacters": 73394,
+          "sha256": "40e33ab97cf64b440dd4cf57f41ce8b6f5d213c37800950b2013e1db42cce2da",
+          "retrieved": true
+        },
+        {
+          "pageTitle": "[util.smartptr.atomic.shared]",
+          "fetchedUrl": "https://eel.is/c++draft/util.smartptr.atomic.shared",
+          "contentCharacters": 18029,
+          "sha256": "d1b02adb4335113fe93ba76cbb995b521e8c9d506cc8d86935f1789b475e6526",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B37",
+      "name": "C++ 公开标准草案：virtual functions / destructors",
+      "urls": [
+        "https://eel.is/c++draft/class.virtual",
+        "https://eel.is/c++draft/class.dtor"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "[class.virtual]",
+          "fetchedUrl": "https://eel.is/c++draft/class.virtual",
+          "contentCharacters": 19015,
+          "sha256": "237f309f3c0320f3f351b5665160b6536b8df4bd038e5dc383cce51bf0864790",
+          "retrieved": true
+        },
+        {
+          "pageTitle": "[class.dtor]",
+          "fetchedUrl": "https://eel.is/c++draft/class.dtor",
+          "contentCharacters": 24870,
+          "sha256": "b443c2b58a4486fb359bd6f66aee4d4c72985b0abb95fa5086c264ba1769b5d9",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B38",
+      "name": "Itanium C++ ABI：Virtual Table Layout（常见 ABI，不是所有编译器的布局保证）",
+      "urls": [
+        "https://itanium-cxx-abi.github.io/cxx-abi/abi.html"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Itanium C++ ABI",
+          "fetchedUrl": "https://itanium-cxx-abi.github.io/cxx-abi/abi.html",
+          "contentCharacters": 255101,
+          "sha256": "fcd52687fee550f028b3c47e4a2ed08f954c313d576ebb18fdb63d24720befb9",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B39",
+      "name": "ISO C++：C++ Core Guidelines（RAII、资源和异常安全）",
+      "urls": [
+        "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "C++ Core Guidelines",
+          "fetchedUrl": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+          "contentCharacters": 975866,
+          "sha256": "49cd98f3d4027360d6c8aa9f35ec94007537e933acac6592d930bc799220d13c",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B40",
+      "name": "C++ 公开标准草案：Multi-threaded executions and data races",
+      "urls": [
+        "https://eel.is/c++draft/intro.races"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "[intro.races]",
+          "fetchedUrl": "https://eel.is/c++draft/intro.races",
+          "contentCharacters": 21704,
+          "sha256": "93421807e70895dccf112dbd3d8a1e0b34660558cb611c5bbcfb77934cfef3de",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B41",
+      "name": "Apache Kafka：Introduction",
+      "urls": [
+        "https://kafka.apache.org/intro"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Introduction | Apache Kafka",
+          "fetchedUrl": "https://kafka.apache.org/intro",
+          "contentCharacters": 15944,
+          "sha256": "989ab6464b9c25b0179ff146c1c8ab0b420fbcda20da05c16f68f38e8fb947bd",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B42",
+      "name": "Apache Kafka 4.1：Design / Message Delivery Semantics",
+      "urls": [
+        "https://kafka.apache.org/41/design/design/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Design | Apache Kafka",
+          "fetchedUrl": "https://kafka.apache.org/41/design/design/",
+          "contentCharacters": 95768,
+          "sha256": "38f38c41129c52ef4394cb0ac38c983c816190064b961f20da17d0766c07ff4b",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B43",
+      "name": "Apache Kafka 4.1：Producer Configs",
+      "urls": [
+        "https://kafka.apache.org/41/configuration/producer-configs/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Producer Configs | Apache Kafka",
+          "fetchedUrl": "https://kafka.apache.org/41/configuration/producer-configs/",
+          "contentCharacters": 91757,
+          "sha256": "14344173866640eb4ff1072692090cf8e694d594570d8f2d0f81dea54420d9d6",
+          "retrieved": true
+        }
+      ]
+    },
+    {
+      "id": "B44",
+      "name": "Apache Kafka：Consumer Rebalance Protocol",
+      "urls": [
+        "https://kafka.apache.org/42/operations/consumer-rebalance-protocol/"
+      ],
+      "evidence": "主代理补读官方正文并核对关键边界",
+      "snapshots": [
+        {
+          "pageTitle": "Consumer Rebalance Protocol | Apache Kafka",
+          "fetchedUrl": "https://kafka.apache.org/42/operations/consumer-rebalance-protocol/",
+          "contentCharacters": 21313,
+          "sha256": "a8fbae11f1e729d2fb04571df3dae44961d90b462e86f12019a693c1c33af3b8",
+          "retrieved": true
+        }
+      ]
+    }
+  ]
+}

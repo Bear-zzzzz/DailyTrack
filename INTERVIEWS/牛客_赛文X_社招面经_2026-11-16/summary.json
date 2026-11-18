@@ -1,0 +1,230 @@
+{
+  "collectedDate": "2026-11-16",
+  "indexUrl": "https://www.nowcoder.com/discuss/921546202062000128?sourceSSR=users",
+  "inclusiveStart": "互动影游小厂 AI全栈开发 一面",
+  "inclusiveEnd": "商汤 全栈开发 一面",
+  "directoryEntries": 110,
+  "uniquePages": 109,
+  "questionOccurrences": 1581,
+  "exactUniqueQuestions": 1572,
+  "excludedNonQuestionLines": 83,
+  "categories": [
+    {
+      "code": "A",
+      "name": "Agent 架构、运行时、记忆与多 Agent 编排",
+      "occurrences": 288,
+      "exactUnique": 287
+    },
+    {
+      "code": "B",
+      "name": "MCP、Tool、Skill 与 A2A 协议",
+      "occurrences": 91,
+      "exactUnique": 89
+    },
+    {
+      "code": "C",
+      "name": "RAG、知识库、向量检索与数据维护",
+      "occurrences": 49,
+      "exactUnique": 49
+    },
+    {
+      "code": "D",
+      "name": "大模型、Prompt、模型选型与效果评测",
+      "occurrences": 96,
+      "exactUnique": 96
+    },
+    {
+      "code": "E",
+      "name": "AI 编程、Harness、SDD 与研发效能",
+      "occurrences": 176,
+      "exactUnique": 176
+    },
+    {
+      "code": "F",
+      "name": "Go 语言与运行时",
+      "occurrences": 40,
+      "exactUnique": 40
+    },
+    {
+      "code": "G",
+      "name": "Python 语言与并发",
+      "occurrences": 13,
+      "exactUnique": 13
+    },
+    {
+      "code": "H",
+      "name": "C++、Java 与其他语言基础",
+      "occurrences": 33,
+      "exactUnique": 33
+    },
+    {
+      "code": "I",
+      "name": "前端、浏览器与 Web 开发",
+      "occurrences": 18,
+      "exactUnique": 18
+    },
+    {
+      "code": "J",
+      "name": "操作系统、网络与通用并发基础",
+      "occurrences": 65,
+      "exactUnique": 65
+    },
+    {
+      "code": "K",
+      "name": "数据库、Redis、缓存与查询优化",
+      "occurrences": 49,
+      "exactUnique": 49
+    },
+    {
+      "code": "L",
+      "name": "分布式系统、中间件与软件架构",
+      "occurrences": 113,
+      "exactUnique": 113
+    },
+    {
+      "code": "M",
+      "name": "云原生、部署运维、故障排查与安全",
+      "occurrences": 98,
+      "exactUnique": 98
+    },
+    {
+      "code": "N",
+      "name": "算法、手写代码与数学概率",
+      "occurrences": 44,
+      "exactUnique": 44
+    },
+    {
+      "code": "O",
+      "name": "项目深挖、业务理解与系统设计",
+      "occurrences": 232,
+      "exactUnique": 226
+    },
+    {
+      "code": "P",
+      "name": "职业规划、行为面试、HR 与反问",
+      "occurrences": 176,
+      "exactUnique": 176
+    }
+  ],
+  "duplicateLinks": [
+    {
+      "primary": 13,
+      "title": "wxg 全栈开发 一面",
+      "aliases": [
+        {
+          "number": 14,
+          "title": "远志 全栈开发 一面"
+        }
+      ],
+      "url": "https://www.nowcoder.com/feed/main/detail/513a8a3fa27f4fa889ed5fbd61d1a0bc"
+    }
+  ],
+  "missingPages": [],
+  "topicStatistics": [
+    {
+      "name": "AI 编程与规范驱动开发",
+      "occurrences": 189,
+      "posts": 82
+    },
+    {
+      "name": "模型效果、幻觉与评测",
+      "occurrences": 119,
+      "posts": 61
+    },
+    {
+      "name": "Agent 架构与完整执行链",
+      "occurrences": 66,
+      "posts": 46
+    },
+    {
+      "name": "MCP、Tool、Skill 与协议",
+      "occurrences": 98,
+      "posts": 43
+    },
+    {
+      "name": "算法与概率",
+      "occurrences": 47,
+      "posts": 37
+    },
+    {
+      "name": "Agent 记忆与上下文管理",
+      "occurrences": 51,
+      "posts": 35
+    },
+    {
+      "name": "多 Agent 协作、路由与通信",
+      "occurrences": 52,
+      "posts": 34
+    },
+    {
+      "name": "RAG 与知识库",
+      "occurrences": 49,
+      "posts": 31
+    },
+    {
+      "name": "权限、安全与沙箱",
+      "occurrences": 40,
+      "posts": 26
+    },
+    {
+      "name": "Docker、Kubernetes 与部署",
+      "occurrences": 33,
+      "posts": 26
+    },
+    {
+      "name": "Go 调度、GC 与并发",
+      "occurrences": 46,
+      "posts": 23
+    },
+    {
+      "name": "高可用、限流与稳定性",
+      "occurrences": 27,
+      "posts": 23
+    },
+    {
+      "name": "网络、HTTP 与 RPC",
+      "occurrences": 36,
+      "posts": 21
+    },
+    {
+      "name": "数据库与 SQL 优化",
+      "occurrences": 26,
+      "posts": 21
+    },
+    {
+      "name": "前端框架与浏览器",
+      "occurrences": 27,
+      "posts": 19
+    },
+    {
+      "name": "Redis、缓存与分布式锁",
+      "occurrences": 31,
+      "posts": 18
+    },
+    {
+      "name": "DDD、事件驱动与架构设计",
+      "occurrences": 25,
+      "posts": 17
+    },
+    {
+      "name": "Python 与 GIL",
+      "occurrences": 17,
+      "posts": 14
+    },
+    {
+      "name": "一致性、事务与幂等",
+      "occurrences": 15,
+      "posts": 14
+    },
+    {
+      "name": "C++ 与 STL",
+      "occurrences": 18,
+      "posts": 10
+    },
+    {
+      "name": "消息队列与 Kafka",
+      "occurrences": 11,
+      "posts": 7
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "verifiedDate": "2026-11-16",
+  "checks": {
+    "bothRangeEndpointsIncluded": true,
+    "all110EntriesResolveToCollectedPages": true,
+    "unique109Urls": true,
+    "everyBodyLineReviewed": true,
+    "allSelectedLinesHaveCategoryAndProvenance": true,
+    "selectedAndExcludedCoverAllLines": true,
+    "classificationCountsSumToOccurrences": true,
+    "mergedBankPreservesAllOccurrences": true,
+    "duplicateLinkCountedOnce": true,
+    "noQuestionFromExcludedLines": true,
+    "noCommentsOrRecommendationsInBodies": true,
+    "everyCollectedBodyIsNonempty": true,
+    "introductoryHashtagsDidNotHideBody": true,
+    "missingAlgorithmNotInvented": true,
+    "gmpNotMiscountedAsLlmEvaluation": true,
+    "goContextNotMiscountedAsAgentMemory": true,
+    "algorithmDeploymentNotMiscountedAsCodingPuzzle": true,
+    "answerNavigationAdded": true,
+    "originalQuestionAndPostArtifactsUnchanged": true
+  },
+  "fileChecksums": {
+    "01_逐篇面经与问题.md": "87f93ff4ec69e495d355dc3b38b8600124c272470b54eb2222e9f8e9ae63471f",
+    "02_分类题库.md": "b47847d33a2e5fe931efaab50582948d32f6d847a453c7ca45a6003b24e6d759",
+    "03_高频主题与复习索引.md": "5b50475c9aa5b79d28ab30b96180ead9096d968f0f032c7e8b5db6bb4a7bfce2",
+    "README.md": "86d7c911a13bf9bd07bcab7059952f827dc09b48cc1fa8b1ecf93f95f607960e",
+    "directory.json": "e54f49a226fab342fdd83adc83c69dea5e8ec7243d4efa4c618f3d9dbb9bbcd2",
+    "posts.json": "c424a3471a39571258bef52b80b58a54d2c2db46aa675ec9487dc2c39f554c22",
+    "questions.json": "30d25342ec993b2fa43f7865016deb44197df150358d91c4e0fc09fba901e134",
+    "summary.json": "92ea0d486d36c742cfeececb228e8ada64ad51df36b422af5c2a86aa9e7cd862",
+    "04_高频主题参考答案.md": "30ba1d9b0194c7ce582f5f9af2d57c64a0abc1b4aa03498c3f495f3267f1a323",
+    "05_参考来源与版本说明.md": "b2e4062e8bcc181f026c9233dbc58423c727440ec0ff91ddf1ed36483c1e9760",
+    "answer_sources.json": "cf1e394d79fb20c24963b671c4428976fb1c3b4049cd03f28fd5f9e83c7bc513",
+    "answers_verification.json": "966af61ec51227a5ee70f5464fe1db40f068db0ef239bc5a9c60782eb70f6ad8"
+  },
+  "answersAddedDate": "2026-11-16"
+}
